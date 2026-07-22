@@ -58,3 +58,49 @@ in Colab, straight from your repo):
 When your paper is deployed, put its exact URL in `../submission/paper_url.txt` (one line).
 ML-12 lives in your capstone notebook's closing markdown cells — it's the smallest card and
 the easiest to forget, which is exactly why it has a row here.
+
+---
+
+# My Internship Work
+
+## Completed Assignments
+
+I completed the FlyRank ML Internship workflow from problem framing to final capstone.
+
+| Assignment | Notebook | Status |
+|---|---|---|
+| ML-02 Research Question | w01_research_question.ipynb | Completed |
+| ML-03 ML Task Framing | w02_ml_task_framing.ipynb | Completed |
+| ML-04 Data Contract | w03_data_contract.ipynb | Completed |
+| ML-05 Feature Leakage Check | w03_feature_leakage_check.ipynb | Completed |
+| ML-06 Signal Audit | w04_signal_audit.ipynb | Completed |
+| ML-07 Baseline Score | w04_baseline_score.ipynb | Completed |
+| ML-08 Model Development | w05_model.ipynb | Completed |
+| ML-09 Validation Audit | w06_validation_audit.ipynb | Completed |
+| ML-10 Action Playbook | w07_action_playbook.ipynb | Completed |
+| ML-11 Capstone Research Paper | capstone.ipynb | Completed |
+| ML-12 Demo + Employer Summary | capstone.ipynb closing section | Completed |
+
+## Project Overview
+
+This project demonstrates an end-to-end machine learning workflow:
+
+- Research question definition
+- Data understanding and contracts
+- Feature analysis and leakage checks
+- Baseline comparison
+- Model development
+- Validation and evaluation
+- Action recommendations
+- Capstone research summary
+
+## Responsible ML Practices
+
+The project follows responsible ML practices:
+
+- Results are reported as observed and measured outcomes.
+- Recommendations are decision-support only.
+- Human review is required before taking actions.
+- No private or client-identifying information is included.
+
+## Repository Structure
