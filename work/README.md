@@ -65,42 +65,86 @@ the easiest to forget, which is exactly why it has a row here.
 
 ## Completed Assignments
 
-I completed the FlyRank ML Internship workflow from problem framing to final capstone.
+I completed the FlyRank Machine Learning Internship workflow from research question definition to the final capstone project.
 
 | Assignment | Notebook | Status |
-|---|---|---|
-| ML-02 Research Question | w01_research_question.ipynb | Completed |
-| ML-03 ML Task Framing | w02_ml_task_framing.ipynb | Completed |
-| ML-04 Data Contract | w03_data_contract.ipynb | Completed |
-| ML-05 Feature Leakage Check | w03_feature_leakage_check.ipynb | Completed |
-| ML-06 Signal Audit | w04_signal_audit.ipynb | Completed |
-| ML-07 Baseline Score | w04_baseline_score.ipynb | Completed |
-| ML-08 Model Development | w05_model.ipynb | Completed |
-| ML-09 Validation Audit | w06_validation_audit.ipynb | Completed |
-| ML-10 Action Playbook | w07_action_playbook.ipynb | Completed |
-| ML-11 Capstone Research Paper | capstone.ipynb | Completed |
-| ML-12 Demo + Employer Summary | capstone.ipynb closing section | Completed |
+|------------|----------|--------|
+| ML-02 Research Question | w01_research_question.ipynb | ✅ Completed |
+| ML-03 ML Task Framing | w02_ml_task_framing.ipynb | ✅ Completed |
+| ML-04 Data Contract | w03_data_contract.ipynb | ✅ Completed |
+| ML-05 Feature Leakage Check (Optional) | w03_feature_leakage_check.ipynb | ✅ Completed |
+| ML-06 Signal Audit (Optional) | w04_signal_audit.ipynb | ✅ Completed |
+| ML-07 Baseline Score | w04_baseline_score.ipynb | ✅ Completed |
+| ML-08 Model Development | w05_model.ipynb | ✅ Completed |
+| ML-09 Validation Audit | w06_validation_audit.ipynb | ✅ Completed |
+| ML-10 Content Action Playbook | w07_action_playbook.ipynb | ✅ Completed |
+| ML-11 Capstone Research Paper | capstone.ipynb | ✅ Completed |
+| ML-12 Demo, Social Post & Employer Summary | capstone.ipynb | ✅ Completed |
 
-## Project Overview
+---
 
-This project demonstrates an end-to-end machine learning workflow:
+# Project Overview
+
+This repository demonstrates an end-to-end machine learning workflow for identifying content improvement opportunities using anonymized SEO and engagement data.
+
+The project includes:
 
 - Research question definition
-- Data understanding and contracts
-- Feature analysis and leakage checks
-- Baseline comparison
-- Model development
-- Validation and evaluation
-- Action recommendations
-- Capstone research summary
+- ML task framing
+- Data understanding and validation
+- Feature engineering
+- Feature leakage checks
+- Baseline model evaluation
+- Random Forest model development
+- Grouped validation using client-based train/test split
+- Content action recommendations
+- Capstone research paper
 
-## Responsible ML Practices
+---
 
-The project follows responsible ML practices:
+# Final Model Performance
 
-- Results are reported as observed and measured outcomes.
-- Recommendations are decision-support only.
-- Human review is required before taking actions.
-- No private or client-identifying information is included.
+| Model | Accuracy |
+|--------|---------:|
+| Baseline (Dummy Classifier) | 0.7834 |
+| Random Forest Classifier | 0.8382 |
 
-## Repository Structure
+The Random Forest model showed higher measured accuracy than the baseline on the grouped validation split. The results are observational and intended for decision support rather than guaranteed future performance.
+
+---
+
+# Responsible ML Practices
+
+This project follows responsible machine learning principles.
+
+- Results are reported as **observed** and **measured** outcomes.
+- Findings are **directional** and intended for **decision support**.
+- Human review is required before applying recommendations.
+- No client-identifying or sensitive information is included.
+- The model does not guarantee future content performance.
+
+---
+
+# Tools Used
+
+- Python
+- Pandas
+- Scikit-learn
+- Google Colab
+- Git
+- GitHub
+
+---
+
+# Repository Structure
+
+```
+work/
+├── notebooks/
+├── outputs/
+├── figures/
+├── scripts/
+└── capstone_report.md
+```
+
+This repository contains all notebooks, outputs, and supporting files developed during the FlyRank Machine Learning Internship.
